@@ -1,0 +1,23 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Test Id</th> 
+            <th>Test Name</th> 
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let test of tests">
+           <td>{{test.testid}}</td>
+           <td>{{test.testname}}</td>
+           
+            <td>
+                <button (click)="updateTest(test.testid)" class="btn btn-info">
+                    Update
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+

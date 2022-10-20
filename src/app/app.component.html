@@ -1,0 +1,90 @@
+<div class="health">
+<img src="assets\healthy.webp">
+<h1 class="text-center">{{title}}</h1>
+<p class="text-center">A transforming,Healing presence!!</p>
+
+<!-- <div class="btn-toolbar pull-right">
+  <button type="button" class="btn mr-3">Home</button>
+  <button type="button" class="btn mr-3">About</button>
+  <button type="button" class="btn">Register</button>
+  
+</div>
+<div class="login-form">
+
+  <form>
+
+    <h1>Login</h1>
+
+    <div class="content">
+
+      <div class="input-field">
+
+        <input type="username" placeholder="username" autocomplete="nope">
+
+      </div>
+
+      <div class="input-field">
+
+        <input type="email" placeholder="Email" autocomplete="nope">
+
+      </div>
+
+      <div class="input-field">
+
+        <input type="password" placeholder="Password" autocomplete="new-password">
+
+      </div>
+
+      <a href="#" class="link">Forgot Your Password?</a>
+
+    </div>
+
+    <div class="action">
+
+      <button>Register</button>
+
+      <button>Sign in</button>
+
+    </div>
+
+  </form>
+
+</div>
+<footer class="footer">
+
+  <div class="container">
+
+    <span>All Rights Reserved 2050 @Healthcare private ltd</span>
+
+  </div>
+
+</footer>
+
+ -->
+ <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="tests" routerLinkActive="active" 
+      class="nav-link">TestList </a>
+
+    </li>
+    <!--Create route a link to add new tests-->
+    <li class="nav-item">
+
+      <a routerLink="create-test" routerLinkActive="active" 
+      class="nav-link">Add Test </a>
+    </li>
+    
+  </ul>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span>All Rights Reserved 2022 @SkillBout Trainigs pvt ltd</span>
+  </div>
+</footer>
+</div>

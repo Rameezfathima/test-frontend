@@ -1,0 +1,24 @@
+<div class="col-md-6 offset-md-3">
+    <h3>Create/Add Test</h3>
+    <form (ngSubmit)="onSubmit()">
+    
+        <!--UserId input-->
+        <div class="form-group">
+            <label>Test id</label>
+            <input type="text" class="form-control" id="TestId"
+            [(ngModel)] = "test.testid" name="testid">
+        </div>
+    
+        <!--Center List input-->
+        <div class="form-group">
+            <label>Test Name</label>
+            <input type="text" class="form-control" id="TestName"
+            [(ngModel)] = "test.testname" name="testname">
+        </div>
+    
+        
+    
+        <button class="btn btn-success" type="submit">Submit</button>
+    
+    </form>
+</div>
